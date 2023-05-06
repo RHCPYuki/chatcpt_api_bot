@@ -1,1 +1,1 @@
-# chatcpt_api_bot
+# chatgpt_api_bot

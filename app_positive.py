@@ -2,7 +2,8 @@
 import streamlit as st
 import openai
 
-openai.api_key = secret_keys.openai_api_key
+# Streamlit Community Cloudの「Secrets」からOpenAI API keyを取得
+openai.api_key = st.secrets.OpenAIAPI.openai_api_key
 
 system_prompt = """
 あなたはポジティブな相談相手です。

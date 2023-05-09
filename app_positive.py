@@ -39,7 +39,6 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「ポジティブ」ボット")
-st.image("04_programming.png")
 st.write("何でも相談してください。")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)

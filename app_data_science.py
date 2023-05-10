@@ -38,8 +38,8 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title(" 「ポジティブ」ボット")
-st.write("何でも相談してください。")
+st.title(" 「データサイエンティスト育成」ボット")
+st.write("データサイエンティストになるために聞いてみよう！")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
 
